@@ -55,10 +55,10 @@ const toggleDropdown = () => {
 };
 
 const goToTugas = (tugasId) => {
-  const url = netlifyUrls[tugasId - 1]; 
-  
-  window.open(url, '_blank');
+  const url = netlifyUrls[tugasId - 1];
+  window.location.href = url;
 };
+
 </script>
 
 <style scoped>
